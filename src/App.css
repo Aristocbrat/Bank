@@ -1,0 +1,76 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=DM+Serif+Text:ital@0;1&family=Matemasie&family=Outfit:wght@100..900&family=Ubuntu+Condensed&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    font-family: "Outfit", system-ui;
+    scroll-behavior: smooth;
+}
+
+.card {
+    perspective: 1000px;
+  }
+  
+  .card-inner {
+    transform-style: preserve-3d;
+    transition: transform 1.999s;
+  }
+  
+  .card:hover .card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .card-front,
+  .card-back {
+    backface-visibility: hidden;
+  }
+  
+  .card-front {
+    transform: rotateY(0deg);
+  }
+  
+  .card-back {
+    transform: rotateY(180deg);
+  }
+
+
+
+@media (max-width:360px) {
+    .cardbb{
+        height: 40px !important;
+    }
+    .bacc,.cop,.loan,.bus{
+        margin-top: -114% !important;
+   }
+   .int{
+    margin-top: -57% !important;
+   }
+   .anc{
+     gap: 9px !important;
+   }
+   .notice{
+    height: 152px !important;
+   }
+} 
+  
+@media (max-width:375px) {
+    .log {
+        margin-left: 41.3% !important;
+        margin-top: -41% !important;
+    }
+    .bacc,.cop,.loan,.bus{
+         margin-top: -74% !important;
+    }
+}
+@media (max-width:390px) {
+  .bacc,.cop,.loan,.bus{
+        margin-top: -73% !important;
+    }
+ .log {
+    margin-left: 41.7% !important;
+    margin-top: -41% !important;
+  }
+} 
