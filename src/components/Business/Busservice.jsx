@@ -6,7 +6,7 @@ import { IoChevronForwardOutline } from "react-icons/io5";
 const Busservice = () => {
   return (
     <div>
-          <div id='Busservice' className='overflow-hidden'>
+          <div id='Busservice' className=''>
       <div className="bg-white rounded-tl-3xl rounded-br-3xl w-[100%] border-b border-black" > 
          <div className="flex xl:flex-row sm:flex-col justify-center py-6 gap-6">
             <div className="">

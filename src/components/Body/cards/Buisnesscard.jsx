@@ -1,5 +1,3 @@
-import React from 'react'
-
 const Buisnesscard = () => {
   const scrollToSection = (sectionId) => {
     const element = document.getElementById(sectionId);
@@ -9,10 +7,10 @@ const Buisnesscard = () => {
   };
 
   return (
-    <div>
-         <div className='flex xl:gap-9 bg-yellow-400 xl:mt-[-1.5%] sm:mt-[-3%] 
-           xl:h-[20px] sm:h-[35px] px-4 justify-center sticky top-0 z-30 w-full rounded-tl-3xl rounded-br-3xl '>
-  
+    
+      <div className='flex xl:gap-9 bg-yellow-400 xl:h-[20px] sm:h-[35px]
+       px-4 justify-center sticky top-0 z-30 w-full rounded-tl-3xl rounded-br-3xl'>
+
          <div className="card w-44 mt-2 h-full">
         <div className="card-body px-3">
           <div className="card-actions justify-center">
@@ -104,7 +102,7 @@ const Buisnesscard = () => {
         </div>
       </div>
     </div>
-    </div>
+   
   )
 }
 

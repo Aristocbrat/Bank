@@ -5,6 +5,7 @@ import { CiSearch } from "react-icons/ci";
 import { GiPadlock } from "react-icons/gi";
 import logoimg from "./../../assets/images/mylg.png";
 import { BsMenuButton } from "react-icons/bs";
+import { GiCancel } from "react-icons/gi";
 import { TiLightbulb } from "react-icons/ti";
 
 const Navbar = () => {
@@ -105,8 +106,37 @@ const Navbar = () => {
           </ul>
           <div className="xl:hidden  text-[12px]">
                 <ul className="flex gap-5 items-center mt-2 px-4">
-                     <li className='bg-yellow-400 rounded-full w-11 h-9 hover:animate-bounce '>
-                      <BsMenuButton className='mt-[5px] text-navbarBg ml-2   text-2xl' /></li>
+                     <li
+                      className='bg-yellow-400 rounded-full w-11 h-9 hover:translate-y-2 duration-300 '>
+                        <p onClick={()=>document.getElementById('my_modal_5').showModal()}>
+                          <BsMenuButton className='mt-[5px] text-navbarBg ml-2   text-2xl' />
+                          </p>
+                          <dialog id="my_modal_5" className="modal modal-bottom sm:modal-middle w-52">
+                      <div className="modal-box bg-navbarBg text-yellow-400">
+                         <ul>
+                          <li className='border-b-2 py-2 border-yellow-400' >
+                            <a href="/"> Home</a>
+                            </li>
+                          <li className='border-b-2 py-2 border-yellow-400'>
+                            <a href="/Person">Personal</a>
+                            </li>
+                          <li className='border-b-2 py-2 border-yellow-400'>
+                            <a href="/Business">Business</a></li>
+                          <li className='border-b-2 py-2 border-yellow-400'>
+                            <a href="/Invest">Investor Relations</a></li>
+                            <li className='border-b-2 py-2 border-yellow-400'>
+                            <a href="#" className='flex gap-2'>
+                              <GiPadlock className='mt-[4px]' /> Online Banking Login</a></li>
+                         </ul>
+                   <div className="modal-action">
+                       <form method="dialog">
+                      
+                       <button className="text-3xl "><GiCancel /></button>
+                         </form>
+                        </div>
+                    </div>
+                  </dialog>
+                      </li>
                      <li><button className="btn bg-yellow-400 text-navbarBg flex"> <GiPadlock className='mt-[6px]' />Login</button></li>
                      <li><CiSearch className="text-2xl text-yellow-500" /></li>
                      <li>
@@ -154,9 +184,9 @@ const Navbar = () => {
               </ul>
             </li>
             
-            <li className="dropdown dropdown-hover relative">
-              <a href="#" tabIndex={0} className="flex ml-4 gap-1 hover:duration-500 hover:text-yellow-500" aria-label="Locate">
-                Locate <IoChevronDown className="xl:mt-[3px] sm:mt-[4px] hover:rotate-180 duration-500" />
+            <li className="dropdown dropdown-hover relative group hover:duration-500 hover:text-yellow-500">
+              <a href="#" tabIndex={0} className="flex ml-4 gap-1 " aria-label="Locate">
+                Locate <span><IoChevronDown className="xl:mt-[3px] sm:mt-[4px] group-hover:rotate-180 duration-500" /></span>
               </a>
               <ul className="dropdown-content w-24 z-50 menu bg-navbarBg rounded-tl-3xl rounded-br-3xl 
               mt-2 shadow absolute left-0 top-full text-textc border-yellow-400 border-2">

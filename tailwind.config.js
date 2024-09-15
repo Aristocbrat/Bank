@@ -9,6 +9,7 @@ export default {
       },
       boxShadow: {
         'box': '15px 15px 30px #bebebe, -15px -15px 30px #ffffff',
+        'box2':'0 6px 10px rgba(207, 212, 222, 1)'
       },
       screens:{
         "sm" : "350px",
@@ -18,7 +19,13 @@ export default {
         "2xl" :"1536px",
       },
       backgroundImage:{
-        "busbg":"url('/busbg.jpg')"
+        "busbg":"url('/busbg.jpg')",
+        "aboutbg":"url('/timage1.jpg')",
+        "logo":"url('/invst.jpg')"
+      },
+
+      fontFamily:{
+        italo:["Italianno", "cursive"]
       }
       
     },

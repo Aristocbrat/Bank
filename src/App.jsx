@@ -8,6 +8,8 @@ import Personal from './components/Person'
 import Home from './components/Home'
 import Anchors from './components/constants/Anchors'
 import Businessbody from './components/Business/Businessbody'
+import Aboutbody from './components/Aboutus/Aboutbody'
+import Invstbody from './components/Investment/Invstbody'
 
 function App() {
  
@@ -18,7 +20,9 @@ function App() {
     <Routes>
     <Route path='/' element={<Home/>}/>
     <Route path='/Person' element={<Personal/>}/> 
-    <Route path='/Business' element={<Businessbody/>}/> 
+    <Route path='/Business' element={<Businessbody/>}/>
+    <Route path='/Aboutus' element={<Aboutbody/>}/>\
+    <Route path='/Invest' element={<Invstbody/>}/>
     </Routes>
     <Anchors/>
     <Prefoot/>
