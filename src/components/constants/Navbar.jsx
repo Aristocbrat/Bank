@@ -99,9 +99,53 @@ const Navbar = () => {
               </NavLink>
             </li>
             <li>
-              <a href="#" className="hover:underline hover:underline-offset-[12px] hover:duration-500 hover:text-yellow-500 flex gap-[6px]">
+              <a href="#" className="hover:underline hover:underline-offset-[12px]
+               hover:duration-500 hover:text-yellow-500 flex gap-[6px]"  onClick={()=>document.getElementById('my_modal_5').showModal()}>
                 <GiPadlock className='mt-[6px]' /> Online Banking Login
               </a>
+              <dialog id="my_modal_5" className="modal modal-bottom sm:modal-middle ">
+                <div className="modal-box bg-navbarBg ">
+                <div className="bg-yellow-500 w-64  h-52 mt-4 xl:ml-12 sm:mr-[8%] rounded-tl-3xl rounded-br-3xl">
+                    <h1  className='xl:text-xl sm:text-[11px] font-extrabold flex justify-center py-2 border-b border-navbarBg'>Online Banking</h1>
+                     <div className="flex xl:px-3 sm:px-1 justify-between xl:text-lg sm:text-[11px]">
+                        <NavLink
+                        to="/Person"
+                        className={({ isActive }) =>
+                            isActive 
+                           ? "underline underline-offset-[12px] duration-500 text-yellow-500 "
+                           : "hover:underline hover:underline-offset-[12px] hover:duration-500 hover:text-black font-bold"
+                          } >
+                         Personal
+                        </NavLink>
+
+                        <NavLink
+                        to="/Business"
+                        className={({ isActive }) =>
+                            isActive 
+                           ? "underline underline-offset-[12px] duration-500 text-yellow-500"
+                           : "hover:underline hover:underline-offset-[12px] hover:duration-500 hover:text-black font-bold"
+                          } >
+                         Business
+                        </NavLink>
+                     </div>
+                     <div className="mt-6 flex justify-center">
+                        <button className='btn bg-navbarBg text-yellow-400 hover:bg-navbarBg hover:text-white duration-500'>Login</button>
+                     </div>
+
+                    <div className="flex xl:gap-4 sm:gap-2 justify-center xl:text-lg sm:text-[12px] mt-4">
+                        <a href="#" className='border-r-2 border-navbarBg flex xl:px-3 sm:px-1 opacity-70 hover:opacity-100  duration-500'>Register</a>
+                        <a href="#" className='opacity-70 hover:opacity-100 duration-500'>Demo</a>
+                    </div>
+                </div>
+                 <div className="modal-action">
+                <form method="dialog">
+                  {/* if there is a button in form, it will close the modal */}
+             <button className="btn">Close</button>
+            </form>
+         </div>
+       </div>
+        </dialog>
+
             </li>
           </ul>
           <div className="xl:hidden  text-[12px]">
@@ -149,10 +193,10 @@ const Navbar = () => {
         </div>
 
         <section className='xl:w-[45%] sm:w-[100%] bg-white border-b-2 border-r-2 border-navbarBg rounded-br-lg'>
-          <ul className='flex xl:gap-10 sm:gap-5 xl:ml-12 py-2 sm:text-[13px] px-3'>
+          <ul className='flex xl:gap-10 sm:gap-5 xl:ml-12 py-2 xl:text-[16px] sm:text-[13px] px-3'>
             <li className="dropdown dropdown-hover relative">
               <a tabIndex={0} href="#" className="hover:underline hover:underline-offset-[6px] hover:duration-500 hover:text-yellow-500">
-                Open an Account
+                Pick Account
               </a>
               <ul className="dropdown-content w-32 z-50 menu bg-navbarBg rounded-tl-3xl 
               rounded-br-3xl mt-2 shadow absolute left-0 top-full border-yellow-400 border-2">
@@ -186,12 +230,12 @@ const Navbar = () => {
             
             <li className="dropdown dropdown-hover relative group hover:duration-500 hover:text-yellow-500">
               <a href="#" tabIndex={0} className="flex ml-4 gap-1 " aria-label="Locate">
-                Locate <span><IoChevronDown className="xl:mt-[3px] sm:mt-[4px] group-hover:rotate-180 duration-500" /></span>
+                Locate <span><IoChevronDown className="xl:mt-[5px] sm:mt-[4px] group-hover:rotate-180 duration-500" /></span>
               </a>
               <ul className="dropdown-content w-24 z-50 menu bg-navbarBg rounded-tl-3xl rounded-br-3xl 
               mt-2 shadow absolute left-0 top-full text-textc border-yellow-400 border-2">
-                <li><a href="#" className='hover:duration-500 hover:text-yellow-500'>Branch</a></li>
-                <li><a href="#" className='hover:duration-500 hover:text-yellow-500'>ATM</a></li>
+                <li><a href="/Locate" className='hover:duration-500 hover:text-yellow-500'>Branch</a></li>
+                <li><a href="/Locate" className='hover:duration-500 hover:text-yellow-500'>ATM</a></li>
               </ul>
             </li>
 

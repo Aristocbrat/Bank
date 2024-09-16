@@ -4,9 +4,9 @@ const Aboutarticle = () => {
   return (
     <div>
        <div className="main text-navbarBg bg-[#F7F7F8]">
-        <h1 className='font-italo text-7xl flex justify-center underline underline-offset-8 '>About us</h1>
+        <h1 className='font-bold xl:text-7xl sm:text-4xl flex justify-center underline underline-offset-8 '>About us</h1>
         <div className=" max-w-[85%] mx-auto py-4">
-            <h1 className='font-italo text-4xl underline underline-offset-8 py-3'>
+            <h1 className='font-bold xl:text-4xl sm:text-2xl underline underline-offset-8 py-3'>
                 3rdGB Bank: Revolutionizing Banking in West Africa</h1>
              <p className='text-xl'>
              In today's fast-paced world, financial institutions must deliver more
@@ -16,7 +16,7 @@ const Aboutarticle = () => {
               3rdGB Bank offers innovative solutions tailored to meet the needs 
               of individuals and businesses alike.
              </p>
-             <h1 className='font-italo text-4xl underline underline-offset-8 py-3' >
+             <h1 className='font-bold xl:text-4xl sm:text-2xl underline underline-offset-8 py-3' >
                 3rdGB Bank's Presence Across West Africa</h1>
         </div>
         <p className='text-xl w-[85%] mx-auto'>

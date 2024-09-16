@@ -94,6 +94,9 @@
     .bacc,.cop,.loan,.bus{
          margin-top: -74% !important;
     }
+    .card-client{
+      width: 290px !important;
+    }
 }
 @media (max-width:390px) {
   .bacc,.cop,.loan,.bus{

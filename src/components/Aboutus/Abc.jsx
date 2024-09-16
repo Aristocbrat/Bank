@@ -5,7 +5,7 @@ const Abc = (props) => {
     <div>
         <div className=" w-[95%] mx-auto py-6 xl:px-4 sm:px-7">
             
-           <div class="card-client bg-navbarBg xl:w-96 sm:w-[330px] py-[25px] px-[20px] border-2
+           <div class="card-client bg-navbarBg xl:w-96 sm:w-[320px] py-[25px] px-[20px] border-2
             border-yellow-400 items-center text-yellow-300 
             transition-all duration-300 ease-in-out hover:-translate-y-2">
               <div class="user-picture border-4 rounded-full w-[5rem] h-[5rem]

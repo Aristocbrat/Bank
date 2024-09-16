@@ -10,6 +10,8 @@ import Anchors from './components/constants/Anchors'
 import Businessbody from './components/Business/Businessbody'
 import Aboutbody from './components/Aboutus/Aboutbody'
 import Invstbody from './components/Investment/Invstbody'
+import Locatebody from './components/Locate/Locatebody'
+import Branch from './components/Locate/Branch'
 
 function App() {
  
@@ -23,6 +25,8 @@ function App() {
     <Route path='/Business' element={<Businessbody/>}/>
     <Route path='/Aboutus' element={<Aboutbody/>}/>\
     <Route path='/Invest' element={<Invstbody/>}/>
+    <Route path='/Locate' element={<Locatebody/>}/>
+    <Route path='/Branch' element={<Branch/>}/>
     </Routes>
     <Anchors/>
     <Prefoot/>
