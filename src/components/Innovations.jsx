@@ -6,7 +6,7 @@ const Innovations = () => {
       <div className="bg-navbarBg w-[100%] h-[100%]">
         <h1 className='flex justify-center xl:text-4xl
          text-yellow-400 pt-5 underline underline-offset-2'>You can be part of our Initiatives</h1>
-        <img src="/public/Wave2.png" alt="" className='w-[100%]' />
+        <img src="/Wave2.png" alt="" className='w-[100%]' />
 
         <div className="xl:absolute flex justify-center mt-[-38%] gap-6 px-2 ml-4 w-[94%] flex-wrap">
         <div className="card card-side bg-yellow-400 text-navbarBg shadow-xl xl:w-[500px] sm:w-[85%] flex xl:flex-row sm:flex-col">
