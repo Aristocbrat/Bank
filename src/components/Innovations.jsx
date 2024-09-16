@@ -12,7 +12,7 @@ const Innovations = () => {
         <div className="card card-side bg-yellow-400 text-navbarBg shadow-xl xl:w-[500px] sm:w-[85%] flex xl:flex-row sm:flex-col">
         <figure>
            <img
-      src="/public/save.jpg"
+      src="/save.jpg"
       alt="" className='xl:w-[350px] sm:w-[100%] h-[220px]'/>
      </figure>
          <div className="card-body sm:w-[100%] xl:w-[50%]">
@@ -25,7 +25,7 @@ const Innovations = () => {
         <div className="card card-side bg-yellow-400 text-navbarBg shadow-xl xl:w-[500px] sm:w-[85%] flex xl:flex-row sm:flex-col">
          <figure>
           <img
-      src="/public/hc1.jpg"
+      src="/hc1.jpg"
       alt="" className='xl:w-[350px] sm:w-[100%] h-[220px]'/> 
           </figure>
        <div className="card-body">
@@ -39,7 +39,7 @@ const Innovations = () => {
 <div className="card card-side bg-yellow-400 text-navbarBg shadow-xl xl:w-[500px] sm:w-[85%] flex xl:flex-row sm:flex-col">
         <figure>
     <img
-      src="/public/fash.jpg"
+      src="/fash.jpg"
       alt="" className='xl:w-[350px] sm:w-[100%] h-[220px] '/>
      </figure>
          <div className="card-body">
@@ -52,7 +52,7 @@ const Innovations = () => {
        <div className="card card-side bg-yellow-400 text-navbarBg shadow-xl xl:w-[500px] sm:w-[85%] flex xl:flex-row sm:flex-col">
         <figure>
           <img
-             src="/public/build.jpg"
+             src="/build.jpg"
                  alt="" className='xl:w-[350px] sm:w-[100%] h-[200px]'/>
              </figure>
          <div className="card-body">

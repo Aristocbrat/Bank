@@ -18,14 +18,15 @@ const Linksbg = () => {
                     </div>
                 </div>
                 <div className="sm:hidden xl:block">
-                    <img src="/public/Group 101.png" alt=" " className='mt-9 dots' />
+                    <img src="/Group 101.png" alt=" " className='mt-9 dots' />
                 </div>
 
                 <div className=" xl:mt-40 sm:mt-44 ">
                 <FaLightbulb  className='xl:text-9xl sm:text-4xl sm:ml-[-350%] xl:ml-0 text-yellow-400'/>
                 </div>
                 <div className="bg-yellow-500 xl:w-52 sm:w-64  h-52 mt-4 xl:ml-12 sm:mr-[8%] rounded-tl-3xl rounded-br-3xl">
-                    <h1  className='xl:text-xl sm:text-[11px] font-extrabold flex justify-center py-2 border-b border-navbarBg'>Online Banking</h1>
+                    <h1  className='xl:text-xl sm:text-[11px] font-extrabold
+                     flex justify-center py-2 border-b border-navbarBg'>Online Banking</h1>
                      <div className="flex xl:px-3 sm:px-1 justify-between xl:text-lg sm:text-[11px]">
                         <NavLink
                         to="/Person"
@@ -48,16 +49,18 @@ const Linksbg = () => {
                         </NavLink>
                      </div>
                      <div className="mt-6 flex justify-center">
-                        <button className='btn bg-navbarBg text-yellow-400 hover:bg-navbarBg hover:text-white duration-500'>Login</button>
+                        <button className='btn bg-navbarBg text-yellow-400
+                         hover:bg-navbarBg hover:text-white duration-500'>Login</button>
                      </div>
 
                     <div className="flex xl:gap-4 sm:gap-2 justify-center xl:text-lg sm:text-[12px] mt-4">
-                        <a href="#" className='border-r-2 border-navbarBg flex xl:px-3 sm:px-1 opacity-70 hover:opacity-100  duration-500'>Register</a>
+                        <a href="#" className='border-r-2 border-navbarBg 
+                        flex xl:px-3 sm:px-1 opacity-70 hover:opacity-100  duration-500'>Register</a>
                         <a href="#" className='opacity-70 hover:opacity-100 duration-500'>Demo</a>
                     </div>
                 </div>
          </section>
-         <img src="/public/Wave.png" alt="" className='h-[50px] w-[100%] ' />
+         <img src="/Wave.png" alt="" className='h-[50px] w-[100%] ' />
        </div>
     </div>
   )

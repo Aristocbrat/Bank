@@ -50,7 +50,7 @@ const Copcard = () => {
               <img src={img1} alt="" className='xl:w-[400px] h-[280px] sm:w-[85%] sm:mx-auto xl:mx-0 rounded-tl-3xl
                rounded-br-3xl object-center object-cover' />
                <div className="absolute xl:mt-[-12%] xl:ml-[12.5%] sm:ml-[42.3%] sm:mt-[-37%] z-30 log">
-               <img src="/public/mylg.png" alt="" className='w-[50px] h-[30px] object-fill  ' />
+               <img src="/mylg.png" alt="" className='w-[50px] h-[30px] object-fill  ' />
                </div>
                
             </div>
