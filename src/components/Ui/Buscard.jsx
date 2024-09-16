@@ -1,5 +1,4 @@
 import React from 'react'
-import { FiChevronsRight } from "react-icons/fi";
 import { GiLindenLeaf } from "react-icons/gi";
 const Buscard = (props) => {
   return (

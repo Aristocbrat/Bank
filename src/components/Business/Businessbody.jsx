@@ -6,7 +6,7 @@ import Copcard from './Copcard'
 import Loan from './Loan'
 import Busservice from './Busservice'
 import Intrade from './Intrade'
-import Busicardy from './busicardy'
+import Busicardy from './Busicardy'
 
 const Businessbody = () => {
   return (
