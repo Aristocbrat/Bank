@@ -13,7 +13,7 @@ const Private = () => {
                 <p className='font-extralight xl:w-[400px] sm:w-[85%] sm:mx-auto xl:mx-0 '>With our innovative financial solutions designed just for you. </p>
                 <button className='btn flex mt-9 bg-navbarBg w-44 sm:mx-auto xl:mx-0 text-textc hover:bg-navbarBg hover:translate-x-5 duration-500'>
                 Private Banking <IoChevronForwardOutline /> </button>
-                <div className="stats stats-vertical lg:stats-horizontal shadow xl:mx-0 sm:mx-auto mt-4">
+                <div className="stats stats-vertical lg:stats-horizontal shadow xl:mx-0 sm:mx-auto mt-4 bg-white">
                <div className="stat">
                    <div className="stat-title">Investment</div>
                    <div className="stat-value">50% profit</div>

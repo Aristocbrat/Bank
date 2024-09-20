@@ -11,9 +11,9 @@ import { FaPeopleGroup } from "react-icons/fa6";
 
 const Anchors = () => {
   return (
-    <div className='overflow-hidden'>
+    <div className='overflow-hidden bg-white'>
         <div className="flex flex-wrap xl:gap-12 sm:gap-[20px] sm:ml-3 xl:ml-0 anc  sm:px-2 
-        py-5 xl:px-4 xl:w-[100%] sm:w-[95%] justify-center mt-4 ">
+        py-5 xl:px-4 xl:w-[100%] sm:w-[95%] justify-center mt-4  ">
             <div className="xl:w-[100px] sm:w-[80px] opacity-85 group hover:opacity-100 duration-700 cursor-pointer">
             <TbMoneybag className='bg-navbarBg text-yellow-400 rounded-full text-4xl w-[50px] h-[50px] px-2 
             group-hover:bg-yellow-400 group-hover:text-navbarBg group-hover:duration-700 ' />

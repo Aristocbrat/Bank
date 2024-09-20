@@ -152,10 +152,10 @@ const Navbar = () => {
                 <ul className="flex gap-5 items-center mt-2 px-4">
                      <li
                       className='bg-yellow-400 rounded-full w-11 h-9 hover:translate-y-2 duration-300 '>
-                        <p onClick={()=>document.getElementById('my_modal_5').showModal()}>
+                        <p onClick={()=>document.getElementById('my_modal_2').showModal()}>
                           <BsMenuButton className='mt-[5px] text-navbarBg ml-2   text-2xl' />
                           </p>
-                          <dialog id="my_modal_5" className="modal modal-bottom sm:modal-middle w-52">
+                      <dialog id="my_modal_2" className="modal modal-bottom sm:modal-middle w-52 ">
                       <div className="modal-box bg-navbarBg text-yellow-400">
                          <ul>
                           <li className='border-b-2 py-2 border-yellow-400' >
