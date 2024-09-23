@@ -7,7 +7,7 @@ const Cardys = (Cd) => {
 
        <div className="cardys w-[300px] h-[284px] rounded-xl bg-[#e0e0e0] shadow-box">
         <div className="cardimg">
-            <img src={Cd.img} alt="" className='w-full h-[162px] object-cover rounded-t-xl' />
+            <img src={Cd.img} alt="" className='w-full h-[162px] object-cover rounded-t-xl hover:scale-105 duration-500' />
         </div>
         <div className="cardystext">
             <h1 className='text-xl font-bold w-[85%] mx-auto flex justify-center text-blue-950'>{Cd.h1}</h1>
