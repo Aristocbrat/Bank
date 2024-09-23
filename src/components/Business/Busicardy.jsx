@@ -6,7 +6,7 @@ const Busicardy = () => {
   return (
     <div className="">
 
-    <div className='bg-white flex xl:flex-row sm:flex-col gap-9 px-7 justify-center '>
+    <div className='bg-white flex xl:flex-row sm:flex-col py-12 gap-9 px-7 justify-center '>
       {Data3.map((item , index)=>{
         return(
          <Buscard

@@ -3,7 +3,7 @@ import img1 from './../../assets/images/busbg.jpg'
 
 const Businesshead = () => {
   return (
-    <div className='pb-6 '>
+    <div className=' '>
       <div className="bg-busbg max-w-full h-[500px] bg-cover bg-center ">
       <div className="card bg-navbarBg text-yellow-400 xl:w-96 sm:w-[85%] relative top-44 xl:left-20 ">
        <div className="card-body ">

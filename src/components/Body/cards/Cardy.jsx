@@ -8,9 +8,9 @@ const Cardy = () => {
   return (
     <div id='Cardy'>
       <div className="bg-white w-[100%] rounded-bl-3xl border-b border-black" >
-         <div className="flex xl:flex-row sm:flex-col justify-center py-6 gap-6  mt-6">
+         <div className="flex xl:flex-row sm:flex-col justify-center xl:py-24 sm:py-12 gap-6  mt-6">
           <div className="mt-1">
-          <h1 className='xl:text-2xl sm:text-3xl py-3 font-extrabold flex sm:justify-center xl:justify-start'>Cards</h1>
+          <h1 className='xl:text-5xl sm:text-3xl py-3 font-extrabold flex sm:justify-center xl:justify-start'>Cards</h1>
                 <p className='font-extralight xl:w-[400px] sm:w-[85%] xl:mx-0 flex sm:mx-auto'>Get more out of your money with our flexible, Super slick adding and easy-to-use cards. .</p>
                 <button className='btn flex w-44 mx-auto mt-9 bg-navbarBg text-textc hover:bg-navbarBg hover:translate-x-5 duration-500'>
                 See All Cards <IoChevronForwardOutline /> </button>

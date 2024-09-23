@@ -3,7 +3,7 @@ import React from 'react'
 const Abc = (props) => {
   return (
     <div>
-        <div className=" w-[95%] mx-auto py-6 xl:px-4 sm:px-7">
+        <div className=" w-[95%] mx-auto py-12 xl:px-4 sm:px-7">
             
            <div class="card-client bg-navbarBg xl:w-96 sm:w-[320px] py-[25px] px-[20px] border-2
             border-yellow-400 items-center text-yellow-300 

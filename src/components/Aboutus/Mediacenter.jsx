@@ -5,7 +5,7 @@ import Innovations from './../Innovations'
 const Mediacenter = () => {
   return (
     <div>
-      <div className="media bg-[#f7f7f8d2] py-5 px-5  ">
+      <div className="media bg-[#f7f7f8d2] xl:py-12 sm:py-5 px-5  ">
         <div className="max-w-[90%]">
         <h1 className='font-bold text-3xl flex ml-14 py-6'>Latest from the Media Centre</h1>
         <div className="links xl:w-[85%] sm:w-[95%]  mx-auto px-4 text-navbarBg">

@@ -3,12 +3,12 @@ import React from 'react'
 const Aboutarticle = () => {
   return (
     <div>
-       <div className="main text-navbarBg bg-[#F7F7F8]">
+       <div className="main text-navbarBg bg-[#F7F7F8] xl:py-16 sm:py-12">
         <h1 className='font-bold xl:text-7xl sm:text-4xl flex justify-center underline underline-offset-8 '>About us</h1>
-        <div className=" max-w-[85%] mx-auto py-4">
+        <div className=" max-w-[85%] mx-auto py-6">
             <h1 className='font-bold xl:text-4xl sm:text-2xl underline underline-offset-8 py-3'>
                 3rdGB Bank: Revolutionizing Banking in West Africa</h1>
-             <p className='text-xl'>
+             <p className='text-xl py-2'>
              In today's fast-paced world, financial institutions must deliver more
               than just traditional banking services. 3rdGB Bank stands at the forefront
               of this transformation, reshaping the banking experience across West Africa.

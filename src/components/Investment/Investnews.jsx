@@ -5,7 +5,7 @@ import { PiCurrencyDollarSimpleBold } from "react-icons/pi";
 import { FaArrowUp , FaArrowDown  } from "react-icons/fa";
 const Investnews = () => {
   return (
-    <div className='px-4 xl:ml-10 text-xl mt-4 py-5'>
+    <div className='px-4 xl:ml-10 text-xl mt-4 xl:py-20 sm:py-5'>
         <h1 className='font-bold ml-8'>Latest News</h1>
       <div className="flex xl:flex-row sm:flex-col
        justify-between  xl:w-[95%] sm:w-[100%] mx-auto ">

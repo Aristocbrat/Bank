@@ -4,11 +4,11 @@ import Uidata from './../Data/Data1'
 
 const Service = () => {
   return (
-    <div className='w-[100%] rounded-br-3xl border-b border-black' id='Services'>
+    <div className='w-[100%] xl:py-24 sm:py-12 rounded-br-3xl border-b border-black' id='Services'>
         <div className="">
         <h1 className='xl:text-3xl sm:text-xl font-extrabold py-4 flex justify-center'>Other Products & Services</h1>
       </div>
-        <div className="bg-white flex xl:flex-row sm:flex-col gap-9 px-7 justify-center">
+        <div className="bg-white flex xl:flex-row sm:flex-col gap-9 px-7 justify-center otherprod">
             {Uidata.map((item,index)=>{
                 return(
                     <Services

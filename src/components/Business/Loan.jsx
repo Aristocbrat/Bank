@@ -7,9 +7,9 @@ const Loan = () => {
     <div>
          <div id='Loan' className='overflow-hidden'>
       <div className="bg-white rounded-tl-3xl rounded-br-3xl w-[100%] border-b border-black" > 
-         <div className="flex xl:flex-row sm:flex-col justify-center py-6 gap-6">
+         <div className="flex xl:flex-row sm:flex-col justify-center xl:py-24 sm:py-12 gap-6">
             <div className="">
-                <h1 className='xl:text-2xl sm:text-4xl flex py-3 sm:justify-center xl:justify-start font-extrabold'> Loans & Advance</h1>
+                <h1 className='xl:text-5xl sm:text-4xl flex py-3 sm:justify-center xl:justify-start font-extrabold'> Loans & Advance</h1>
                 <p className='font-extralight xl:w-[400px] sm:w-[92%] xl:mx-0 flex sm:mx-auto'>
                 Get the right financing for your business from our term loans and business facilities.
                 </p>

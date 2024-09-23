@@ -6,9 +6,9 @@ const Private = () => {
   return (
     <div id='Private' >
       <div className="bg-white w-[100%] rounded-br-3xl border-b border-black "  >
-        <div className="flex xl:flex-row  sm:flex-col gap-6 justify-center py-6 mt-5">
+        <div className="flex xl:flex-row  sm:flex-col gap-6 justify-center xl:py-24 sm:py-12 mt-5">
         <div className="mt-1 flex justify-center flex-col">
-            <h1 className='xl:text-2xl sm:text-4xl flex py-3 sm:justify-center xl:justify-start font-extrabold'>Private Banking</h1>
+            <h1 className='xl:text-5xl sm:text-4xl flex py-3 sm:justify-center xl:justify-start font-extrabold'>Private Banking</h1>
                 <p className='font-extralight xl:w-[400px] sm:w-[85%] sm:mx-auto xl:mx-0'>Build on your achievements and follow your Dreams.</p>
                 <p className='font-extralight xl:w-[400px] sm:w-[85%] sm:mx-auto xl:mx-0 '>With our innovative financial solutions designed just for you. </p>
                 <button className='btn flex mt-9 bg-navbarBg w-44 sm:mx-auto xl:mx-0 text-textc hover:bg-navbarBg hover:translate-x-5 duration-500'>

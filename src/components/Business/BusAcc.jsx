@@ -7,9 +7,9 @@ const BusAcc = () => {
     <div>
         <div id='BusAcc' className='overflow-hidden'>
       <div className="bg-white rounded-tl-3xl rounded-br-3xl w-[100%] border-b border-black" > 
-         <div className="flex xl:flex-row sm:flex-col justify-center py-6 gap-6">
+         <div className="flex xl:flex-row sm:flex-col justify-center xl:py-24 sm:py-12 gap-6">
             <div className="">
-                <h1 className='xl:text-2xl sm:text-4xl flex py-3 sm:justify-center xl:justify-start font-extrabold'>Business Accounts</h1>
+                <h1 className='xl:text-5xl sm:text-4xl flex py-3 sm:justify-center xl:justify-start font-extrabold'>Business Accounts</h1>
                 <p className='font-extralight xl:w-[400px] sm:w-[92%] xl:mx-0 flex sm:mx-auto'>Whether you are just starting up or looking to grow your business,
                      we have the account that works just right for you</p>
                 <button className='btn  flex w-52 sm:mx-auto xl:mx-0 mt-9 bg-navbarBg text-textc hover:bg-navbarBg hover:translate-x-5 duration-500'>
@@ -46,7 +46,7 @@ const BusAcc = () => {
            </div>
             </div>
             <div className="">
-              <img src={img1} alt="" className='xl:w-[400px] h-[240px] sm:w-[85%] sm:mx-auto xl:mx-0 rounded-tl-3xl rounded-br-3xl object-center object-cover' />
+              <img src={img1} alt="" className='xl:w-[400px] h-[280px] sm:w-[85%] sm:mx-auto xl:mx-0 rounded-tl-3xl rounded-br-3xl object-center object-cover' />
               <h1 className='font-extrabold px-2 text-xl text-navbarBg py-4 xl:mx-0 sm:mx-auto xl:w-[400px] sm:w-[85%] '>Here for all
                  <span className='uppercase text-yellow-600 text-3xl ml-2'>Business</span> </h1>
             </div>

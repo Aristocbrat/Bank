@@ -7,9 +7,9 @@ const Ways = () => {
   return (
     <div id='Ways'>
       <div className="bg-white w-[100%] border-b border-black  rounded-bl-3xl " >
-        <div className="flex xl:flex-row sm:flex-col justify-center py-6 gap-6  mt-6">
+        <div className="flex xl:flex-row sm:flex-col justify-center xl:py-24 sm:py-12 gap-6  mt-6">
             <div className="mt-1">
-            <h1 className='xl:text-2xl sm:text-4xl flex sm:justify-center xl:justify-start py-3 font-extrabold'>Ways to bank</h1>
+            <h1 className='xl:text-5xl sm:text-4xl flex sm:justify-center xl:justify-start py-3 font-extrabold'>Ways to bank</h1>
                 <p className='font-extralight xl:w-[400px] sm:w-[92%] xl:mx-0 flex sm:mx-auto'>Bank anytime & everywhere with our e-channels .</p>
                 <button className='btn flex  w-44 sm:mx-auto xl:mx-0 mt-9 bg-navbarBg text-textc hover:bg-navbarBg hover:translate-x-5 duration-500'>
                 All ways to Bank <IoChevronForwardOutline /> </button>

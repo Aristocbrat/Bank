@@ -7,9 +7,9 @@ const Copcard = () => {
     <div>
      <div id='Copcard' className='overflow-hidden'>
       <div className="bg-white rounded-tl-3xl rounded-br-3xl w-[100%] border-b border-black overflow-hidden copc" > 
-         <div className="flex xl:flex-row sm:flex-col justify-center py-6 gap-6">
+         <div className="flex xl:flex-row sm:flex-col justify-center xl:py-28 sm:py-12 gap-6">
             <div className="">
-                <h1 className='xl:text-2xl sm:text-4xl flex py-3 sm:justify-center xl:justify-start font-extrabold'>Coporate Cards</h1>
+                <h1 className='xl:text-5xl sm:text-4xl flex py-3 sm:justify-center xl:justify-start font-extrabold'>Coporate Cards</h1>
                 <p className='font-extralight xl:w-[400px] sm:w-[92%] xl:mx-0 flex sm:mx-auto'>
                 Whether its facilitating your travels or handling your transactions,
                  our Corporate Cards are the perfect companion for your business.</p>
