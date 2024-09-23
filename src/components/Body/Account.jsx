@@ -57,7 +57,7 @@ const Account = () => {
             <div className="">
               <img src={img1} alt="" className='xl:w-[400px] sm:w-[85%] sm:mx-auto xl:mx-0 rounded-tl-3xl rounded-br-3xl' />
               <h1 className='font-extrabold px-2 text-xl text-navbarBg py-4 '>Make the Best choice today with
-                 <span className='uppercase text-yellow-600 text-3xl ml-2'>us</span> </h1>
+                 <span className='uppercase text-yellow-600 xl:text-3xl  ml-2'>us</span> </h1>
             </div>
          </div>
       </div>

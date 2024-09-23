@@ -12,7 +12,7 @@ const HomeCard = () => {
     
   return (
     <div className="">
-        <div className="flex flex-col xl:py-4 sm:py-2 px-5 xl:ml-[24%] sm:ml-[6%]">
+        <div className="flex flex-col xl:py-4 sm:py-2 bg-white px-5 xl:ml-[24%] sm:ml-[6%]">
             <h1 className='xl:text-5xl sm:text-xl xl:w-[80%] font-extrabold'>Innovative Banking Products</h1>
             <p className='xl:text-xl font-bold xl:w-[420px] sm:w-[90%] px-2 xl:ml-32 py-2'>Tailored to your lifestyle, designed for your
             personal and business needs.</p>

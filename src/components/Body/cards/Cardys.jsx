@@ -10,8 +10,8 @@ const Cardys = (Cd) => {
             <img src={Cd.img} alt="" className='w-full h-[162px] object-cover rounded-t-xl' />
         </div>
         <div className="cardystext">
-            <h1 className='text-xl font-bold w-[85%] mx-auto flex justify-center'>{Cd.h1}</h1>
-            <p className='font-bold px-2 text-[12px] w-[90%] mx-auto'>{Cd.text}.</p>
+            <h1 className='text-xl font-bold w-[85%] mx-auto flex justify-center text-blue-950'>{Cd.h1}</h1>
+            <p className='font-bold px-2 text-[12px] w-[90%] mx-auto text-blue-950'>{Cd.text}.</p>
         </div> 
         <div className="cardyslinks mt-2">
             <a href="#" className='flex gap-3 w-[60%] mx-auto hover:translate-x-5 duration-500 hover:scale-95'>
