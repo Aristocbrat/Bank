@@ -46,7 +46,7 @@ const InvestCard = () => {
 
   return (
     <div>
-      <div className="hide-scrollbar xl:py-20 sm:py-5 overflow-hidden">
+      <div className="hide-scrollbar xl:py-20 bg-white sm:py-5 overflow-hidden">
         <section className="py-6 xl:m-auto xl:w-full">
           <h1 className="xl:text-4xl font-extrabold flex justify-center py-3">Browse</h1>
           <Slider {...sliderSettings}>
