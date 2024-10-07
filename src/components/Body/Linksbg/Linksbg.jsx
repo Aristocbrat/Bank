@@ -17,23 +17,23 @@ const Linksbg = () => {
                          Link Here <IoChevronForwardOutline className='mt-[5px]'/></a>
                     </div>
                 </div>
-                <div className="sm:hidden xl:block">
+                <div className="sm:hidden xl:block relative left-10">
                     <img src="/Group 101.png" alt=" " className='mt-9 dots' />
                 </div>
 
                 <div className=" xl:mt-40 sm:mt-44 ">
                 <FaLightbulb  className='xl:text-9xl sm:text-4xl sm:ml-[-350%] xl:ml-0 text-yellow-400'/>
                 </div>
-                <div className="bg-yellow-500 xl:w-52 sm:w-64  h-52 mt-4 xl:ml-12 sm:mr-[8%] rounded-tl-3xl rounded-br-3xl">
+                <div className="bg-yellow-500 xl:w-52 sm:w-64  h-52 mt-4 xl:ml-40 sm:mr-[8%] rounded-tl-3xl rounded-br-3xl text-[]">
                     <h1  className='xl:text-xl sm:text-[11px] font-extrabold
-                     flex justify-center py-2 border-b border-navbarBg'>Online Banking</h1>
+                     flex justify-center py-2 border-b border-navbarBg text-black'>Online Banking</h1>
                      <div className="flex xl:px-3 sm:px-1 justify-between xl:text-lg sm:text-[11px]">
                         <NavLink
                         to="/Person"
                         className={({ isActive }) =>
                             isActive 
                            ? "underline underline-offset-[12px] duration-500 text-yellow-500 "
-                           : "hover:underline hover:underline-offset-[12px] hover:duration-500 hover:text-black font-bold"
+                           : "hover:underline hover:underline-offset-[12px]  hover:duration-500 hover:text-black font-bold"
                           } >
                          Personal
                         </NavLink>
@@ -43,7 +43,7 @@ const Linksbg = () => {
                         className={({ isActive }) =>
                             isActive 
                            ? "underline underline-offset-[12px] duration-500 text-yellow-500"
-                           : "hover:underline hover:underline-offset-[12px] hover:duration-500 hover:text-black font-bold"
+                           : "hover:underline hover:underline-offset-[12px] text-navbarBg hover:duration-500 hover:text-black font-bold"
                           } >
                          Business
                         </NavLink>
@@ -55,8 +55,8 @@ const Linksbg = () => {
 
                     <div className="flex xl:gap-4 sm:gap-2 justify-center xl:text-lg sm:text-[12px] mt-4">
                         <a href="#" className='border-r-2 border-navbarBg 
-                        flex xl:px-3 sm:px-1 opacity-70 hover:opacity-100  duration-500'>Register</a>
-                        <a href="#" className='opacity-70 hover:opacity-100 duration-500'>Demo</a>
+                        flex xl:px-3 sm:px-1 opacity-70 hover:opacity-100 text-black duration-500'>Register</a>
+                        <a href="#" className='opacity-70 hover:opacity-100 text-black duration-500'>Demo</a>
                     </div>
                 </div>
          </section>

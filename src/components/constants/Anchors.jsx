@@ -17,7 +17,7 @@ const Anchors = () => {
             <div className="xl:w-[100px] sm:w-[80px] opacity-85 group hover:opacity-100 duration-700 cursor-pointer">
             <TbMoneybag className='bg-navbarBg text-yellow-400 rounded-full text-4xl w-[50px] h-[50px] px-2 
             group-hover:bg-yellow-400 group-hover:text-navbarBg group-hover:duration-700 ' />
-             <p className='font-extrabold xl:ml-[-12%] py-2 xl:text-lg sm:text-[10px]'>Investment</p>
+             <p className='font-extrabold xl:ml-[-16%] py-2 xl:text-lg sm:text-[10px]'>Investment</p>
             </div>
             <div className="xl:w-[100px] sm:w-[80px] opacity-85 group hover:opacity-100 duration-500 cursor-pointer">
             <FaUserTie className='bg-navbarBg text-yellow-400 rounded-full text-4xl w-[50px] h-[50px] px-2
@@ -27,7 +27,7 @@ const Anchors = () => {
             <div className="xl:w-[100px] sm:w-[80px] opacity-85 group hover:opacity-100 duration-500 cursor-pointer">
             <IoVideocam  className='bg-navbarBg text-yellow-400 rounded-full text-4xl w-[50px] h-[50px] px-2 
             group-hover:bg-yellow-400 group-hover:text-navbarBg group-hover:duration-700'/>
-            <p className='font-extrabold w-[200px] xl:ml-[-19%] py-2  xl:text-lg sm:text-[10px]'> Video Banking</p>
+            <p className='font-extrabold w-[200px] xl:ml-[-26%] py-2  xl:text-lg sm:text-[10px]'> Video Banking</p>
             </div>
             <div className="xl:w-[100px] sm:w-[80px] opacity-85 group hover:opacity-100 duration-500 cursor-pointer">
             <FaPeopleGroup className='bg-navbarBg text-yellow-400 rounded-full text-4xl w-[50px] h-[50px] px-2
@@ -37,7 +37,7 @@ const Anchors = () => {
             <div className="xl:w-[100px] sm:w-[80px]  opacity-85 group hover:opacity-100 duration-500 cursor-pointer">
             <IoLocationOutline className='bg-navbarBg text-yellow-400 rounded-full text-4xl w-[50px] h-[50px] px-2 
             group-hover:bg-yellow-400 group-hover:text-navbarBg group-hover:duration-700'/>
-            <p className='font-extrabold w-[200px]  xl:ml-[-16%] py-2 xl:text-lg sm:text-[10px]'>Find a Branch</p>
+            <p className='font-extrabold w-[200px]  xl:ml-[-25%] py-2 xl:text-lg sm:text-[10px]'>Find a Branch</p>
             </div>
             <div className="xl:w-[100px] sm:w-[80px]  opacity-85 group hover:opacity-100 duration-500 cursor-pointer">
             <TbCreditCardPay className='bg-navbarBg text-yellow-400 rounded-full text-4xl w-[50px] h-[50px] px-2

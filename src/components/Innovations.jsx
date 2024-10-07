@@ -3,7 +3,7 @@ import React from 'react'
 const Innovations = () => {
   return (
     <div>
-      <div className="bg-navbarBg w-[100%] h-[100%]">
+      <div className="bg-navbarBg w-[100%] h-[100%] py-10">
         <h1 className='flex justify-center xl:text-4xl
          text-yellow-400 pt-5 underline underline-offset-2'>You can be part of our Initiatives</h1>
         <img src="/Wave2.png" alt="" className='w-[100%]' />
