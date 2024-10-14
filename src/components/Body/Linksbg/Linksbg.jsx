@@ -33,7 +33,7 @@ const Linksbg = () => {
                         className={({ isActive }) =>
                             isActive 
                            ? "underline underline-offset-[12px] duration-500 text-yellow-500 "
-                           : "hover:underline hover:underline-offset-[12px]  hover:duration-500 hover:text-black font-bold"
+                           : "hover:underline hover:underline-offset-[12px] text-black  hover:duration-500 hover:font-bold font-semibold"
                           } >
                          Personal
                         </NavLink>
@@ -43,7 +43,7 @@ const Linksbg = () => {
                         className={({ isActive }) =>
                             isActive 
                            ? "underline underline-offset-[12px] duration-500 text-yellow-500"
-                           : "hover:underline hover:underline-offset-[12px] text-navbarBg hover:duration-500 hover:text-black font-bold"
+                           : "hover:underline hover:underline-offset-[12px] text-black hover:duration-500 hover:font-bold font-semibold"
                           } >
                          Business
                         </NavLink>
